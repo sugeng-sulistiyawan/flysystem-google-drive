@@ -14,7 +14,6 @@ use League\Flysystem\Util;
 
 class GoogleDriveAdapter extends AbstractAdapter
 {
-
     /**
      * Fetch fields setting for get
      *
@@ -42,6 +41,13 @@ class GoogleDriveAdapter extends AbstractAdapter
      * @var Google_Service_Drive
      */
     protected $service;
+
+    /**
+     * Root directory
+     *
+     * @var string
+     */
+    protected $root;
 
     /**
      * Default options
@@ -459,6 +465,7 @@ class GoogleDriveAdapter extends AbstractAdapter
     public function readStream($path)
     {
         $redirect = [];
+        $dlurl = null;
         if (func_num_args() > 1) {
             $redirect = func_get_arg(1);
         }

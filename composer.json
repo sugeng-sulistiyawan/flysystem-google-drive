@@ -1,11 +1,15 @@
 {
-    "name": "nao-pon/flysystem-google-drive",
+    "name": "diecoding/flysystem-google-drive",
     "description": "Flysystem adapter for Google Drive",
     "license": "MIT",
     "authors": [
         {
             "name": "Naoki Sawada",
             "email": "hypweb@gmail.com"
+        },
+        {
+            "name": "Sugeng Sulistiyawan",
+            "email": "sugeng.sulistiyawan@gmail.com"
         }
     ],
     "require": {
@@ -25,11 +29,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-api_v2": "1.0.x-dev",
-            "dev-master": "1.1.x-dev"
-        }
     }
 }

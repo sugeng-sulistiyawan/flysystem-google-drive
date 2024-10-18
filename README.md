@@ -8,7 +8,7 @@
 - For Google Drive API V3
 
 ```bash
-composer require diecoding/flysystem-google-drive:~1.1
+composer require diecoding/flysystem-google-drive
 ```
 
 ## Usage
@@ -114,7 +114,6 @@ $connector->run();
 ## Tips
 
 - [Setup a Laravel Storage driver with Google Drive API](https://gist.github.com/ivanvermeyen/cc7c59c185daad9d4e7cb8c661d7b89b)
-- [Issue list with "HowTo" tag](https://github.com/diecoding/flysystem-google-drive/issues?utf8=%E2%9C%93&q=label%3AHowTo%20)
 
 ## TODO
 

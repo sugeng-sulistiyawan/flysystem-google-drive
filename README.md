@@ -8,7 +8,7 @@
 - For Google Drive API V3
 
 ```bash
-composer require diecoding/flysystem-google-drive
+composer require diecoding/flysystem-google-drive:~1.1
 ```
 
 ## Usage
